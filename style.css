@@ -1,0 +1,115 @@
+.header-content {
+  background-image: url(images/justin.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  line-height: .1;
+
+}
+.image-file{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+}
+
+.image-file img {
+  width: 25%;
+  height: 12rem;
+}
+.image-file1{
+
+  /* justify-content: center; */
+  width: 25%
+}
+.image-file2{
+  width: 60%
+}
+div.info{
+    padding-top:20px;
+    padding-bottom:5px;
+    padding-left: 20px;
+    padding-right:20px;
+    background:#C6FFFB;
+
+
+
+}
+div.song-list{
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+body{
+  background:#D6FFF3;
+
+}
+
+div.centerdiv{
+  align-content:right;
+}
+
+.centerdiv {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.centerdiv a {
+          height: 25px;
+          width:25px;
+          background-color:#CEFFF0;
+          border-radius:50px;
+          text-align: center;
+          margin:5px;
+          line-height: 28px;
+          box-shadow: 1px 2px 2px 1px #AFAFAF;
+}
+
+.centerdiv a i{
+  font-size: 16px;
+  transition: all 0.3s linear;
+}
+
+.centerdiv a:hover i{
+  transform: scale(1.4);
+}
+.fa-facebook{
+  color:#2F39CA;
+}
+.fa-instagram{
+  color:#C50000
+}
+.fa-youtube{
+  color:red;
+}
+.fa-spotify{
+  color:#23A215;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align:right;
+  width: 100vh;
+}
+
+.menu .list {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.menu .list a {
+  text-decoration: none;
+  color: #fff;
+}
